@@ -1,0 +1,38 @@
+div{
+    font-family: "Segoe UI";
+    color: rgb(8, 87, 61, 0.800);
+    letter-spacing: 5px;
+    text-shadow: 2px 4px rgb(255, 255, 255);
+}
+.companyName{
+    font-weight: 1000;
+    font-size: 2cm;
+    line-height: 0.1cm;
+}
+ul {
+    font-family: "Segoe UI";
+    letter-spacing: 3px;
+    font-size: 0.5cm;
+    font-weight: 500;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(8, 87, 61, 0.750);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+} 
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(8, 87, 61, 0.800);
+}
